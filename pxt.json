@@ -4,7 +4,8 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "ikimanagar": "github:sbtree-bit/ikimanagar#master"
+        "ikimanagar": "github:sbtree-bit/ikimanagar#master",
+        "the-coding-king-manager": "github:sbtree-bit/the-coding-king-manager#master"
     },
     "files": [
         "main.blocks",
