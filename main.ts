@@ -68,6 +68,7 @@ let levels = 0
 let chat = 0
 let String2 = 0
 let Letter = 0
+radio.setGroup(100)
 Letter = 0
 let chatmax = 100
 basic.forever(function () {
