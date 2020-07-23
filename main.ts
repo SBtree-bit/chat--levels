@@ -60,18 +60,18 @@ input.onButtonPressed(Button.AB, function () {
     }
     radio.sendNumber(String2)
     chat += 1
-    serial.writeNumber(String2)
 })
 input.onButtonPressed(Button.B, function () {
     Letter += 1
 })
-let levels = 0
 let chat = 0
-let String2 = 0
 let Letter = 0
+let String2 = 0
 radio.setGroup(100)
+String2 = 0
 Letter = 0
 let chatmax = 100
+let levels = 0
 basic.forever(function () {
     if (Letter == 1) {
         basic.showString("A")
@@ -134,5 +134,6 @@ basic.forever(function () {
         levels += 1
         chatmax += 100
         chat = 0
+        serial.writeNumber(levels)
     }
 })
