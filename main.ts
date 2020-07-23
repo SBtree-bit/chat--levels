@@ -60,6 +60,7 @@ input.onButtonPressed(Button.AB, function () {
     }
     radio.sendNumber(String2)
     chat += 1
+    serial.writeNumber(String2)
 })
 input.onButtonPressed(Button.B, function () {
     Letter += 1
